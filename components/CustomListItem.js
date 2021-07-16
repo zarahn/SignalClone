@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import {Avatar, ListItem} from "react-native-elements";
-import {db} from "../firebaseConfig";
+import {db} from '../firebaseConfig';
 
 const CustomListItem = ({ id, chatName, enterChat }) => {
     const [chatMessages, setChatMessages] = useState([]);
